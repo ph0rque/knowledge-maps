@@ -22,12 +22,12 @@ ActiveRecord::Schema.define(version: 20170608115929) do
   create_table "topics", force: :cascade do |t|
     t.string "name"
     t.string "classification"
-    t.integer "knowledge_maps_id"
-    t.integer "topics_id"
+    t.integer "knowledge_map_id"
+    t.integer "topic_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["knowledge_maps_id"], name: "index_topics_on_knowledge_maps_id"
-    t.index ["topics_id"], name: "index_topics_on_topics_id"
+    t.index ["knowledge_map_id"], name: "index_topics_on_knowledge_map_id"
+    t.index ["topic_id"], name: "index_topics_on_topic_id"
   end
 
 end
