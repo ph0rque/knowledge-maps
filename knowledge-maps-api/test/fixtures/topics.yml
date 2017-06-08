@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  classification: MyString
+  knowledge_maps: one
+  topics: one
+
+two:
+  name: MyString
+  classification: MyString
+  knowledge_maps: two
+  topics: two
