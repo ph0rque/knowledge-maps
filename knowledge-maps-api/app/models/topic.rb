@@ -1,7 +1,7 @@
 class Topic < ApplicationRecord
   has_many :prerequisites, class_name: 'Topic', foreign_key: 'topic_id'
 
-  belongs_to :topic
+  belongs_to :dependent_topic, class_name: 'Topic', optional: true
   belongs_to :knowledge_map
 
   validate :topic_cannot_be_its_own_prerequisite
