@@ -7,6 +7,6 @@ class Topic < ApplicationRecord
   validate :topic_cannot_be_its_own_prerequisite
 
   def topic_cannot_be_its_own_prerequisite
-    errors[:base] << 'Topic cannot be its own prerequesite.' if id == topic_id
+    errors[:base] << 'Topic cannot be its own prerequisite.' if id == topic_id
   end
 end

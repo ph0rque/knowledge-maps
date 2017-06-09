@@ -1,6 +1,9 @@
 This is `knowledge-maps` project. The UI apps, API apps, etc. will be in this
 repository (the monorepo).
 
+# Apps
+* `knowledge-maps-api`: rails 5.1
+
 # Resources
 
 * meetings doc: https://docs.google.com/document/d/1FQoQMeuqY2D5Jhfh-1N6_PUtft9HBSXCaEQJXErAFQ8/edit
