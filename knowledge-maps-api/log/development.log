@@ -110,3 +110,11 @@ FOREIGN KEY ("topic_id")
             FROM sqlite_temp_master
             WHERE name='index_topics_on_knowledge_map_id' AND type='index'
 [0m
+Started GET "/" for 127.0.0.1 at 2017-06-08 22:21:29 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/air/.rvm/gems/ruby-2.3.3/gems/railties-5.1.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/air/.rvm/gems/ruby-2.3.3/gems/railties-5.1.1/lib/rails/templates/rails/welcome/index.html.erb (7.2ms)
+Completed 200 OK in 34ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+

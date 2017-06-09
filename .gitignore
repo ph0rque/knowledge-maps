@@ -1,0 +1,18 @@
+# Ignore bundler config.
+./knowledge-maps-api/.bundle
+
+# Ignore the default SQLite database.
+./knowledge-maps-api/db/*.sqlite3
+./knowledge-maps-api/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+./knowledge-maps-api/log/*
+./knowledge-maps-api/tmp/*
+!/knowledge-maps-api/log/.keep
+!/knowledge-maps-api/tmp/.keep
+
+./knowledge-maps-api/node_modules
+./knowledge-maps-api/yarn-error.log
+
+.byebug_history
+./knowledge-maps-api/public/packs

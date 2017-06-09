@@ -1,5 +1,5 @@
 class KnowledgeMap < ApplicationRecord
   has_many :topics
 
-  validate :name, presence: true 
+  validates :name, presence: true 
 end
