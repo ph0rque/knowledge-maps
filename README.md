@@ -3,6 +3,7 @@ repository (the monorepo).
 
 # Apps
 * `knowledge-maps-api`: rails 5.1
+* `knowledge-maps-gui`: react.js (coming soon)
 
 # Resources
 
