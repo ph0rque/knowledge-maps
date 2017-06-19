@@ -63,6 +63,6 @@ class KnowledgeMapsController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def knowledge_map_params
-    params.fetch(:knowledge_map, {})
+    params.require(:data).permit(:type, {attributes: [:name, :description]})
   end
 end

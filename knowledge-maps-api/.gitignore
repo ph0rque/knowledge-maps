@@ -1,0 +1,16 @@
+!.keep
+*.DS_Store
+*.swo
+*.swp
+/.bundle
+/.env.local
+/.env*
+/config/database.yml
+/coverage/*
+/db/*.sqlite3
+/log/*
+/public/system
+/tags
+/tmp/*
+/app/public/assets
+/app/public/dev-assets
